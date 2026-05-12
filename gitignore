@@ -1,0 +1,43 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Data files (large / binary) ──────────────────────────────────────────────
+# Keep DataProject.pk tracked (it's small and required to run the analysis).
+# Add patterns here if you add large CSVs or HDF5 files later.
+*.h5
+*.hdf5
+*.parquet
+
+# ─── OS artifacts ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDE / editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Coverage / testing ───────────────────────────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
